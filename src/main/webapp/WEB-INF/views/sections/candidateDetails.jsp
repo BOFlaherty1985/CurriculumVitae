@@ -19,7 +19,7 @@
         <div class="col-md-10">
 
             <h1>
-                <b>BENJAMIN O'FLAHERTY</b>
+                <b>${propertyConfigurer['candidate.name']}</b>
             </h1>
 
         </div>
@@ -36,7 +36,7 @@
         <div class="col-md-10">
             <p>
                 <b>
-                    <h4><a href="http://github.com/BOFlaherty1985" target="_blank">http://github.com/BOFlaherty1985</a></h4>
+                    <h4><a href="${propertyConfigurer['candidate.gitHubUrl']}" target="_blank">${propertyConfigurer['candidate.gitHubUrl']}</a></h4>
                 </b>
             </p>
         </div>
@@ -51,7 +51,7 @@
         <div class="col-md-1"></div>
 
         <div class="col-md-10">
-            <p>131 The Lock, Building 72, Stratford, London, E15 2QG</p>
+            <p>${propertyConfigurer['candidate.address']}</p>
         </div>
 
         <div class="col-md-1"></div>
@@ -65,7 +65,7 @@
 
         <div class="col-md-10">
             <p>
-                <b><a href="mailto:b_oflaherty@hotmail.com">b_oflaherty@hotmail.com</a></b>
+                <b><a href="mailto:${propertyConfigurer['candidate.email']}">${propertyConfigurer['candidate.email']}</a></b>
             </p>
         </div>
 

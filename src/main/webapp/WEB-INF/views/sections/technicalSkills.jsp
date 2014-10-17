@@ -6,13 +6,24 @@
         <div class="col-md-10">
             <p>
                 <h3>
-                    <b>TECHNICAL SKILLS</b>
+                    <b>${propertyConfigurer['technicalSkills.Header']}</b>
                 </h3>
             </p>
         </div>
 
         <div class="col-md-1"></div>
 
+    </div>
+
+    <!-- Border spacing -->
+    <div class="row">
+        <div class="col-xs-1 col-md-1"></div>
+
+        <div id="underline" class="col-xs-10 col-md-10">
+
+        </div>
+
+        <div class="col-xs-1 col-md-1"></div>
     </div>
 
     <!-- List of Skills -->
@@ -23,11 +34,10 @@
         <div class="col-md-10">
             <p>
                 <ul>
-                    <li>Java (OO), Groovy, Javascript and JQuery, </li>
-                    <li>Spring , Spring Security and Spring Web Flow,</li>
-                    <li>HTML, XML, XSLT and Cascading Style Sheets (CSS)</li>
-                    <li>Spring , Spring Security and Spring Web Flow,</li>
-                    <li>Exposure to  project management (PRINCE2) and Agile (Scrum/Kanban) methodologies.</li>
+                    <li>${propertyConfigurer['technicalSkills.one']}</li>
+                    <li>${propertyConfigurer['technicalSkills.two']}</li>
+                    <li>${propertyConfigurer['technicalSkills.three']}</li>
+                    <li>${propertyConfigurer['technicalSkills.four']}</li>
                 </ul>
             </p>
         </div>

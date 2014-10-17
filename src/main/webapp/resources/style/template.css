@@ -31,5 +31,10 @@ img {
 }
 
 .background_grey {
-    background-color: #F7F7F7;
+    background-color: #FCFCFC;
+}
+
+#underline {
+    background-image: url('../images/underline.png');
+    background-size: 100% 100%;
 }

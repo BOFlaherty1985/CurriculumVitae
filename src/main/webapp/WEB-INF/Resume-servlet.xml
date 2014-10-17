@@ -14,8 +14,19 @@
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
         <property name="prefix" value="/WEB-INF/views/"/>
         <property name="suffix" value=".jsp"/>
+        <property name="exposedContextBeanNames">
+            <list><value>propertyConfigurer</value></list>
+        </property>
     </bean>
 
     <mvc:resources mapping="/resources/**" location="/resources/" />
+
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+        <property name="locations">
+            <list>
+                <value>/properties/boflaherty.properties</value>
+            </list>
+        </property>
+    </bean>
 
 </beans>
