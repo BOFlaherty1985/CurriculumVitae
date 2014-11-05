@@ -34,7 +34,7 @@
 
         <div class="col-xs-10 col-md-10 img-rounded background_grey">
             <div class="col-md-1">
-                <img src="${pageContext.request.contextPath}/resources/images/ageas_sml.jpg" alt="Ageas Insurance Limited" class="img-rounded">
+                <img src="${pageContext.request.contextPath}${propertyConfigurer['workExperience.roleOne.img']}" alt="Ageas Insurance Limited" class="img-rounded">
             </div>
         </div>
 
@@ -79,7 +79,7 @@
 
         <div class="col-xs-10 col-md-10 img-rounded background_grey">
             <div class="col-md-1">
-                <img src="${pageContext.request.contextPath}/resources/images/rolls_royce_sml.png" alt="Ageas Insurance Limited" class="img-rounded">
+                <img src="${pageContext.request.contextPath}${propertyConfigurer['workExperience.roleTwo.img']}" alt="Ageas Insurance Limited" class="img-rounded">
             </div>
         </div>
 

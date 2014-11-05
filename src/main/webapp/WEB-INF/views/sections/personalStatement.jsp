@@ -31,10 +31,10 @@
 
         <div class="col-md-1"></div>
 
-        <div class="col-md-10 content_justify">
+        <div class="col-md-10 content_justify content_offset">
 
             <p>
-                ${propertyConfigurer['personalStatement.text']}
+                ${propertyConfigurer['personalStatement.one']}
             </p>
 
         </div>
