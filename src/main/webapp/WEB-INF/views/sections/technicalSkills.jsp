@@ -19,9 +19,7 @@
     <div class="row">
         <div class="col-xs-1 col-md-1"></div>
 
-        <div id="underline" class="col-xs-10 col-md-10">
-
-        </div>
+        <div id="underline" class="col-xs-10 col-md-10"></div>
 
         <div class="col-xs-1 col-md-1"></div>
     </div>
@@ -38,6 +36,7 @@
                     <li>${propertyConfigurer['technicalSkills.two']}</li>
                     <li>${propertyConfigurer['technicalSkills.three']}</li>
                     <li>${propertyConfigurer['technicalSkills.four']}</li>
+                    <li>${propertyConfigurer['technicalSkills.five']}</li>
                 </ul>
             </p>
         </div>
