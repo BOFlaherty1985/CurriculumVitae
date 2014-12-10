@@ -37,7 +37,6 @@
                     <li>${propertyConfigurer['interests.one']}</li>
                     <li>${propertyConfigurer['interests.two']}</li>
                     <li>${propertyConfigurer['interests.three']}</li>
-                    <li>${propertyConfigurer['interests.four']}</li>
                 </ul>
             </p>
         </div>

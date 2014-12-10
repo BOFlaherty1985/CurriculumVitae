@@ -64,7 +64,13 @@
 
         <div class="col-md-10 content_offset content_justify">
             <p>
-                ${propertyConfigurer['workExperience.roleOne.text']}
+                ${propertyConfigurer['workExperience.roleOne.text1']}
+            </p>
+            <p>
+                ${propertyConfigurer['workExperience.roleOne.text2']}
+            </p>
+            <p>
+                ${propertyConfigurer['workExperience.roleOne.text3']}
             </p>
         </div>
 

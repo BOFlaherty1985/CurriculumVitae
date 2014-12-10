@@ -36,6 +36,9 @@
             <p>
                 ${propertyConfigurer['personalStatement.one']}
             </p>
+            <p>
+                ${propertyConfigurer['personalStatement.two']}
+            </p>
 
         </div>
 
